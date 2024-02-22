@@ -21,12 +21,18 @@ A simple local plugin that enables the option to hide summary of attempt page on
 
 | Moodle version        |       Branch     |  PHP  |
 |-----------------------|------------------|-------|
+| Moodle 4.1+           | petel-m41        | 8.0   |
 | Moodle 3.9+           | MOODLE_39_STABLE | 7.2   |
+
+## ChangeLog
+
+1. Added support to hide/show several elements in the quiz question title
+2. Added support to enable/disable quiz attempts in teams mode (one student submit for all others in a team) which is dependency for https://github.com/PeTeL-Weizmann/moodle-local_teamwork
 
 ## Installation
 **Installing via Git**
 
-    git clone git@github.com:catalyst/moodle-local_quiz_summary_option.git local/quiz_summary_option
+    git clone https://github.com/PeTeL-Weizmann/moodle-local_quiz_summary_option.git local/quiz_summary_option
 
 ## How to use
 1. Go to the course where you want to create or modify a quiz activity
