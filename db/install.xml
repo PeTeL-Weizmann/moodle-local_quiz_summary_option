@@ -9,6 +9,7 @@
                 <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
                 <FIELD NAME="cmid" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="The assigned course module id"/>
                 <FIELD NAME="show_summary" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="if show is 1 it will show summary page"/>
+                <FIELD NAME="show_elements" TYPE="text" NOTNULL="true" SEQUENCE="false" COMMENT="if show elements summary page"/>
             </FIELDS>
             <KEYS>
                 <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
